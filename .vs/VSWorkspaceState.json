@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\basic-practices",
+    "\\src\\app\\components\\roles"
   ],
-  "SelectedNode": "\\src\\app\\app.config.ts",
+  "SelectedNode": "\\src\\app\\components\\roles\\roles.component.ts",
   "PreviewInSolutionExplorer": true
 }

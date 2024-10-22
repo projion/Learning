@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { RolesComponent } from './components/roles/roles.component';
 import { MasterComponent } from './components/master/master.component';
+import { BasicPracticesComponent } from './components/basic-practices/basic-practices.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MasterComponent],
+  imports: [MasterComponent, BasicPracticesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
