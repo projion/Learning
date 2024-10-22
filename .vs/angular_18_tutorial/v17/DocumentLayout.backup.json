@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "D:\\Learning\\angular_18_tutorial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\roles\\roles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\basic-practices\\basic-practices.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\roles\\roles.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\basic-practices\\basic-practices.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\designation\\designation.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\designation\\designation.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\master\\master.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\master\\master.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\roles\\roles.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,144 +27,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "roles.component.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\components\\roles\\roles.component.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts",
-              "RelativeToolTip": "src\\app\\components\\roles\\roles.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-22T09:24:18.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "basic-practices.component.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\components\\basic-practices\\basic-practices.component.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.ts",
-              "RelativeToolTip": "src\\app\\components\\basic-practices\\basic-practices.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-22T09:22:51.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "app.routes.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.routes.ts",
-              "RelativeDocumentMoniker": "src\\app\\app.routes.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.routes.ts",
-              "RelativeToolTip": "src\\app\\app.routes.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-22T09:21:08.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "roles.component.html",
               "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.html",
               "RelativeDocumentMoniker": "src\\app\\components\\roles\\roles.component.html",
               "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.html",
               "RelativeToolTip": "src\\app\\components\\roles\\roles.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-22T08:39:02.002Z",
+              "WhenOpened": "2024-10-22T12:20:10.305Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "basic-practices.component.html",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\basic-practices\\basic-practices.component.html",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\basic-practices\\basic-practices.component.html",
-              "RelativeToolTip": "src\\app\\components\\basic-practices\\basic-practices.component.html",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-22T08:38:54.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "designation.component.html",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\designation\\designation.component.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\designation\\designation.component.html",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\designation\\designation.component.html",
-              "RelativeToolTip": "src\\app\\components\\designation\\designation.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-22T08:38:16.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "app.config.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.config.ts",
-              "RelativeDocumentMoniker": "src\\app\\app.config.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.config.ts",
-              "RelativeToolTip": "src\\app\\app.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "roles.component.ts",
+              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\roles\\roles.component.ts",
+              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\roles\\roles.component.ts",
+              "RelativeToolTip": "src\\app\\components\\roles\\roles.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-22T06:36:10.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "master.component.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\components\\master\\master.component.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.ts",
-              "RelativeToolTip": "src\\app\\components\\master\\master.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-21T17:08:12.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "master.component.html",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\master\\master.component.html",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\components\\master\\master.component.html",
-              "RelativeToolTip": "src\\app\\components\\master\\master.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-21T16:59:47.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.component.ts",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\app.component.ts",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.ts",
-              "RelativeToolTip": "src\\app\\app.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-20T09:05:07.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "app.component.html",
-              "DocumentMoniker": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "src\\app\\app.component.html",
-              "ToolTip": "D:\\Learning\\angular_18_tutorial\\src\\app\\app.component.html",
-              "RelativeToolTip": "src\\app\\app.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-20T09:05:01.548Z",
+              "WhenOpened": "2024-10-22T12:23:32.467Z",
               "EditorCaption": ""
             }
           ]

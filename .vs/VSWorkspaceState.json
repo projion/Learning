@@ -4,7 +4,6 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\basic-practices",
     "\\src\\app\\components\\roles"
   ],
   "SelectedNode": "\\src\\app\\components\\roles\\roles.component.ts",
