@@ -1,0 +1,54 @@
+<p>roles works!</p>
+
+
+
+<p> {{isActive}} </p>    <!--interpolation for showing data-->
+
+<div class="row">
+  <div class="col-3">
+    <p> {{firstName}} </p>    <!--interpolation for showing data-->
+  </div>
+  <div class="col-3">
+    <p> {{version}} </p>    <!--interpolation for showing data-->
+  </div>
+  <div class="col-3">
+    <p> {{currentDate}} </p>    <!--interpolation for showing data-->
+  </div>
+  <div class="col-3">
+    {{selectedState}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-3">
+    <input type="text" [value]="firstName" class="form-control" />    <!--prop binding(only get or one way) >> [value]="firstName"-->
+  </div>
+  <div class="col-3">
+    <input type="text" [(ngModel)]="firstName" />
+    <!--prop binding(two way),
+    it is used only on input element,
+    not for display element(just showing or printing data)
+    >> [(ngModel)]="firstName"-->
+  </div>
+  <div class="col-3">
+    <input [type]="inputType" />
+  </div>
+  <div class="col-3">
+    <select [(ngModel)]="selectedState">  <!--prop binding(two way)-->
+      <option value="MH">MH</option>
+      <option value="MP">MP</option>
+      <option value="Goa">Goa</option>
+    </select>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-3">
+    <button class="btn btn-success" (click)="showWelcomeAlert()">Show Alert</button>  <!--event binding-->
+  </div>
+  <div class="col-3">
+    <button class="btn btn-success" (click)="showMessage('welcome to .net')">Show .NET Alert</button> <!--event binding-->
+  </div>
+  <div class="col-3">
+    <button class="btn btn-success" (click)="showMessage('welcome to React')">Show raact Alert</button> <!--event binding-->
+  </div>
+</div>

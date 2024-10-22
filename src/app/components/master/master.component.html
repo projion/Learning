@@ -1,0 +1,23 @@
+<p>master works!</p>
+<!--Structural directive
+Behavioral directive-->
+
+
+<div class="row">
+  <div class="col-12 text-center">
+    <div class="btn-group">
+      <button type="button"  class="btn" (click)="changeTab('Roles')" [ngClass]="currentComponent=='Roles' ? 'btn-success':'btn-primary' ">Roles</button>
+      <button type="button" class="btn" (click)="changeTab('Designation')" [ngClass]="currentComponent=='Designation' ? 'btn-success':'btn-primary' ">Designations</button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12" *ngIf="currentComponent == 'Roles'">
+    <!--Structural directive-->
+    <app-roles></app-roles>
+    <!--<app-designation></app-designation>-->
+  </div>
+  <div class="col-12" *ngIf="currentComponent == 'Designation'">
+    <app-designation></app-designation>
+  </div>
+</div>
