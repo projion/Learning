@@ -4,8 +4,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\roles"
+    "\\src\\app\\components\\designation",
+    "\\src\\app\\components\\roles",
+    "\\src\\app\\model",
+    "\\src\\app\\model\\interface"
   ],
-  "SelectedNode": "\\src\\app\\components\\roles\\roles.component.ts",
+  "SelectedNode": "\\src\\app\\components\\roles\\roles.component.html",
   "PreviewInSolutionExplorer": true
 }
