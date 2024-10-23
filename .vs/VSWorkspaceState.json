@@ -5,10 +5,8 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\designation",
-    "\\src\\app\\components\\roles",
-    "\\src\\app\\model",
-    "\\src\\app\\model\\interface"
+    "\\src\\app\\components\\master"
   ],
-  "SelectedNode": "\\src\\app\\components\\roles\\roles.component.html",
+  "SelectedNode": "\\src\\app\\components\\designation\\designation.component.ts",
   "PreviewInSolutionExplorer": true
 }
