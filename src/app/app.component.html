@@ -10,13 +10,13 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="javascript:void(0)">Link</a>
+          <a class="nav-link" routerLink="/master" routerlinkActive="active">Master</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
+          <a class="nav-link" [routerLink]="'/employee'" routerlinkActive="active">Employee</a> <!--if value is variable-->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
+          <a class="nav-link" routerLink="/client" routerlinkActive="active">Client</a>
         </li>
       </ul>
       <form class="d-flex">
