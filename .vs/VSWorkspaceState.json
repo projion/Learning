@@ -3,10 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components",
-    "\\src\\app\\components\\designation",
-    "\\src\\app\\components\\master"
+    "\\src\\app\\model",
+    "\\src\\app\\model\\class",
+    "\\src\\app\\services",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\app.component.html",
   "PreviewInSolutionExplorer": true
 }
