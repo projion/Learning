@@ -3,11 +3,12 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { APIResponseModel, Employee } from '../../model/interface/role';
 import { ClientService } from '../../services/client.service';
 import { Client } from '../../model/class/client';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-client-project',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CommonModule],
   templateUrl: './client-project.component.html',
   styleUrl: './client-project.component.css'
 })
@@ -17,9 +18,12 @@ export class ClientProjectComponent implements OnInit {
   constructor(private clientSrv: ClientService) { }
   employeeList: Employee[] = [];
   clientList: Client[] = [];
+  // clientProjectList:FormGroup[]=[];
+  clientProjectList: any[] = [];
   ngOnInit(): void {
     this.getAllClient()
     this.getAllEmployee()
+    this.getAllClientProjects()
   }
 
   projectForm: FormGroup = new FormGroup({
@@ -33,7 +37,7 @@ export class ClientProjectComponent implements OnInit {
     contactPersonContactNo: new FormControl(""),
     totalEmpWorking: new FormControl(""),
     projectCost: new FormControl(""),
-    projectDetails: new FormControl(""),
+    projectDetails: new FormControl("no details"),
     contactPersonEmailId: new FormControl(""),
     clientId: new FormControl(""),
   })
@@ -51,12 +55,22 @@ export class ClientProjectComponent implements OnInit {
   onSaveProject() {
     const formValue = this.projectForm.value;
     debugger;
-    this.clientSrv.addUpdateClienProject(formValue).subscribe((res:APIResponseModel)=>{
-      if(res.result){
+    this.clientSrv.addUpdateClienProject(formValue).subscribe((res: APIResponseModel) => {
+      if (res.result) {
         alert("Project Created Successfully")
-      }else{
+      } else {
         alert(res.message);
       }
+    })
+  }
+  getAllClientProjects() {
+    this.clientSrv.getAllClientProjects().subscribe((res: APIResponseModel) => {
+      if (res.result) {
+        this.clientProjectList = res.data;
+        this.onSaveProject();
+      }
+      else
+        alert(res.message);
     })
   }
 
