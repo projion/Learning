@@ -3,10 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\model",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\client-project",
     "\\src\\app\\model\\class",
     "\\src\\app\\services",
     "\\src\\environments"
   ],
+  "SelectedNode": "\\src\\app\\components\\client-project\\client-project.component.html",
   "PreviewInSolutionExplorer": true
 }
