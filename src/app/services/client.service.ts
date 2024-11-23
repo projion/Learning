@@ -11,6 +11,7 @@ import { environment } from '../../environments/environment.development';
 export class ClientService {
 
   constructor(private http: HttpClient) { }
+  // client start
   GetAllClients(): Observable<APIResponseModel> {
    return this.http.get<APIResponseModel>(environment.API_URL + "GetAllClients")
   }
@@ -22,4 +23,10 @@ export class ClientService {
   deleteClientByClientId(id: number): Observable<APIResponseModel> {
    return this.http.delete<APIResponseModel>(environment.API_URL + "DeleteClientByClientId?clientId="+id)
   }
+  // client end
+  // clientProject start
+  getAllEmployee(): Observable<APIResponseModel> {
+    return this.http.get<APIResponseModel>(environment.API_URL + "GetAllEmployee")
+   }
+  // clientProject end
 }

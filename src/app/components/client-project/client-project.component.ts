@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { APIResponseModel, Employee } from '../../model/interface/role';
+import { ClientService } from '../../services/client.service';
+import { Client } from '../../model/class/client';
 
 @Component({
   selector: 'app-client-project',
@@ -8,7 +11,16 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './client-project.component.html',
   styleUrl: './client-project.component.css'
 })
-export class ClientProjectComponent {
+export class ClientProjectComponent implements OnInit {
+
+  // clientSrv = inject(ClientService);
+  constructor(private clientSrv: ClientService) { }
+  employeeList:Employee[] = [];
+  clientList:Client[] = [];
+  ngOnInit(): void {
+    this.getAllClient()
+    this.getAllEmployee()
+  }
 
   projectForm:FormGroup = new FormGroup({
     clientProjectId : new FormControl(0),
@@ -25,6 +37,17 @@ export class ClientProjectComponent {
     contactPersonEmailId : new FormControl(""),
     clientId : new FormControl(""),
   })
+
+  getAllEmployee(){
+    this.clientSrv.getAllEmployee().subscribe((res:APIResponseModel)=>{
+      this.employeeList = res.data;
+    })
+  }
+  getAllClient(){
+    this.clientSrv.GetAllClients().subscribe((res:APIResponseModel)=>{
+      this.clientList = res.data;
+    })
+  }
 }
 
 

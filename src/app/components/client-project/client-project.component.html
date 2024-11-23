@@ -88,12 +88,18 @@
                             <label for="">Select Client</label>
                             <select formControlName="clientId" class="form-control">
                                 <option value="">Select Client</option>
+                                @for (item of clientList; track $index) {
+                                    <option [value]="item.clientId">{{item.companyName}}</option>
+                                }
                             </select>
                         </div>
                         <div class="col-6">
                             <label for="">Lead By</label>
                             <select formControlName="leadByEmpId" class="form-control">
                                 <option value="">Select Employee</option>
+                                @for (item of employeeList; track $index) {
+                                    <option [value]="item.empId">{{item.empName}} - {{item.empCode}}</option>
+                                }
                             </select>
                         </div>
 
