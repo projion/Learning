@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { APIResponseModel, Employee } from '../../model/interface/role';
 import { ClientService } from '../../services/client.service';
 import { Client } from '../../model/class/client';
@@ -28,7 +28,7 @@ export class ClientProjectComponent implements OnInit {
 
   projectForm: FormGroup = new FormGroup({
     clientProjectId: new FormControl(0),
-    projectName: new FormControl("edfhfj"),
+    projectName: new FormControl("a", [Validators.required, Validators.minLength(4)]),
     startDate: new FormControl(""),
     expectedEndDate: new FormControl(""),
     leadByEmpId: new FormControl(""),

@@ -54,6 +54,16 @@
                         <div class="col-6">
                             <label for="">Project Name</label>
                             <input type="text" formControlName="projectName" class="form-control">
+                            @if (projectForm.controls['projectName'].touched) {
+                            <div class="text-danger">
+                                @if (projectForm.controls['projectName'].errors?.["required"]) {
+                                    <span>This is required</span>
+                                }
+                                @if (projectForm.controls['projectName'].errors?.["minlength"]) {
+                                    <span>Minimum 4 characters required</span>
+                                }
+                            </div>
+                            }
                         </div>
                         <div class="col-6">
                             <label for="">Start Date</label>
@@ -114,7 +124,7 @@
                             <button class="btn btn-secondary">Reset</button>
                         </div>
                         <div class="col-6 text-center">
-                            <button class="btn btn-success" (click)="onSaveProject()">Save Client</button>
+                            <button class="btn btn-success" [disabled]="projectForm.invalid" (click)="onSaveProject()">Save Client</button>
                         </div>
                     </div>
                 </form>
