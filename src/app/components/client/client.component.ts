@@ -5,24 +5,31 @@ import { inject } from '@angular/core/';
 import { ClientService } from '../../services/client.service';
 import { APIResponseModel } from '../../model/interface/role';
 import { Client } from '../../model/class/client';
+import { AsyncPipe, DatePipe, JsonPipe, UpperCasePipe } from '@angular/common';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-client',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,UpperCasePipe, DatePipe, JsonPipe, AsyncPipe],
   templateUrl: './client.component.html',
   styleUrl: './client.component.css'
 })
 export class ClientComponent implements OnInit{
+
+  currentDate:Date = new Date();
+
   clientObj: Client = new Client();
   clientList: Client[] = [];
   //clientService = inject(ClientService);
   constructor(private clientService: ClientService) { }
 
+  userList$ : Observable<any> = new Observable<any>;
 
   ngOnInit(): void {
     //throw new Error('Method not implemented.');
     this.loadClient();
+    this.userList$ = this.clientService.getAllUser();
   }
   loadClient() {
     this.clientService.GetAllClients().subscribe((res: APIResponseModel) => {

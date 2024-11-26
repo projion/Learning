@@ -23,6 +23,9 @@ export class ClientService {
   deleteClientByClientId(id: number): Observable<APIResponseModel> {
    return this.http.delete<APIResponseModel>(environment.API_URL + "DeleteClientByClientId?clientId="+id)
   }
+  getAllUser(){
+    return this.http.get("https://jsonplaceholder.typicode.com/users")
+  }
   // client end
 
   // clientProject start
