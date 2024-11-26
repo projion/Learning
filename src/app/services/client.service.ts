@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Client } from '../model/class/client';
 import { APIResponseModel } from '../model/interface/role';
 import { environment } from '../../environments/environment.development';
+import { Constant } from '../constant/Constant';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,7 @@ export class ClientService {
   constructor(private http: HttpClient) { }
   // client start
   GetAllClients(): Observable<APIResponseModel> {
-   return this.http.get<APIResponseModel>(environment.API_URL + "GetAllClients")
+   return this.http.get<APIResponseModel>(environment.API_URL + Constant.API_METHOD.GET_ALL_CLIENT)
   }
 
   addUpdateClient(obj: Client): Observable<APIResponseModel> {
@@ -30,7 +31,7 @@ export class ClientService {
 
   // clientProject start
   getAllEmployee(): Observable<APIResponseModel> {
-    return this.http.get<APIResponseModel>(environment.API_URL + "GetAllEmployee")
+    return this.http.get<APIResponseModel>(environment.API_URL + Constant.API_METHOD.GET_ALL_EMP)
    }
   addUpdateClienProject(obj: Client): Observable<APIResponseModel> {
   return this.http.post<APIResponseModel>(environment.API_URL + "AddUpdateClientProject", obj)
