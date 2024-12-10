@@ -4,11 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\client",
-    "\\src\\app\\model\\interface",
-    "\\src\\app\\reusableComponent",
-    "\\src\\app\\reusableComponent\\my-button"
+    "\\src\\app\\components\\login",
+    "\\src\\app\\guard"
   ],
-  "SelectedNode": "\\src\\app\\reusableComponent\\my-button\\my-button.component.ts",
+  "SelectedNode": "\\src\\app\\app.routes.ts",
   "PreviewInSolutionExplorer": true
 }
