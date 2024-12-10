@@ -4,11 +4,12 @@ import { APIResponseModel, ClientProject, Employee } from '../../model/interface
 import { ClientService } from '../../services/client.service';
 import { Client } from '../../model/class/client';
 import { CommonModule, DatePipe } from '@angular/common';
+import { AlertComponent } from '../../reusableComponent/alert/alert.component';
 
 @Component({
   selector: 'app-client-project',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, DatePipe],
+  imports: [ReactiveFormsModule, CommonModule, DatePipe, AlertComponent],
   templateUrl: './client-project.component.html',
   styleUrl: './client-project.component.css'
 })

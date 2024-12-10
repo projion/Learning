@@ -2,9 +2,10 @@
 {{clientObj | json}}
 <ul>
   @for (item of userList$ | async ; track $index) {
-    <li>{{item.username}}</li>
+  <li>{{item.username}}</li>
   }
 </ul>
+<app-alert [alertType] ="'Success'" [message]="'Hi from client page'"></app-alert>
 <div class="row">
   <div class="col-8">
     <div class="card">
@@ -59,15 +60,15 @@
             <div class="col-6">
               <label for="">Person Name</label>
               <input type="text" #personName="ngModel" required minlength="3" [(ngModel)]="clientObj.contactPersonName"
-                name="contactPersonName" name="contactPersonName" class="form-control">
+                     name="contactPersonName" name="contactPersonName" class="form-control">
               @if (personName.touched) {
               <div class="text-danger">
                 @if (personName?.errors?.['required']) {
                 <span>This is Required</span>
                 }
                 @if (personName?.errors?.['minlength']) {
-                  <span>Minimum 5 Characters</span>
-                  }
+                <span>Minimum 5 Characters</span>
+                }
               </div>
               }
             </div>
@@ -113,9 +114,10 @@
               <button class="btn btn-secondary">Reset</button>
             </div>
             <div class="col-6 text-center">
-              <button class="btn btn-success" [disabled]="!form.valid" (click)="onSaveClient()">
+              <app-my-button (onBtnClick)="onSaveClient($event)" [btnClass]="'btn btn-warning'" [btnText]="clientObj.clientId != 0 ? 'Update Client' : 'Save Client'"></app-my-button>
+              <!--<button class="btn btn-success" [disabled]="!form.valid" (click)="onSaveClient()">
                 {{clientObj.clientId != 0 ? "Update Client" : "Save Client"}}
-              </button>
+              </button>-->
               <!-- <button class="btn btn-success">Save Client</button> -->
             </div>
           </div>

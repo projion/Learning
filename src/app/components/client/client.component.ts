@@ -7,11 +7,13 @@ import { APIResponseModel } from '../../model/interface/role';
 import { Client } from '../../model/class/client';
 import { AsyncPipe, DatePipe, JsonPipe, UpperCasePipe } from '@angular/common';
 import { Observable } from 'rxjs';
+import { AlertComponent } from '../../reusableComponent/alert/alert.component';
+import { MyButtonComponent } from '../../reusableComponent/my-button/my-button.component';
 
 @Component({
   selector: 'app-client',
   standalone: true,
-  imports: [FormsModule,UpperCasePipe, DatePipe, JsonPipe, AsyncPipe],
+  imports: [FormsModule, UpperCasePipe, DatePipe, JsonPipe, AsyncPipe, AlertComponent, MyButtonComponent],
   templateUrl: './client.component.html',
   styleUrl: './client.component.css'
 })
@@ -36,7 +38,8 @@ export class ClientComponent implements OnInit{
       this.clientList = res.data;
     })
   }
-  onSaveClient() {
+  //onSaveClient() {
+  onSaveClient(data:string) {   /*pass data from child to parent*/
     debugger;
     this.clientService.addUpdateClient(this.clientObj).subscribe((res: APIResponseModel) => {
       if (res.result) {
