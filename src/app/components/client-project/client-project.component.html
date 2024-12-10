@@ -2,41 +2,60 @@
     <div class="col-8">
         <div class="card">
             <div class="card-header bg-success">
-                Client List
+                Client List - {{firstName()}}
+                <button class="btn btn-danger" (click)="changeFName()"> Change F Name</button>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Sr No</th>
-                                    <th>Project Name</th>
-                                    <th>Start Date</th>
-                                    <th>Expected End Date</th>
-                                    <th>Client Name</th>
-                                    <th>Client Project Id</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @for (item of clientProjectList; track $index) {
-                                    <tr>
-                                        <td>{{$index+1}}</td>
-                                        <td>{{item.projectName}}</td>
-                                        <td>{{item.startDate | date: 'dd/MM/yy'}}</td>
-                                        <td>{{item.expectedEndDate | date: 'dd/MM/yy'}}</td>
-                                        <td>{{item.clientName}}</td>
-                                        <td>{{item.clientProjectId}}</td>
-                                        <td>
-                                            <button class="btn btn-primary">Edit</button>
-                                            <button class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
-                                }
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th>Sr No</th>
+                            <th>Project Name</th>
+                            <th>Start Date</th>
+                            <th>Expected End Date</th>
+                            <th>Client Name</th>
+                            <th>Client Project Id</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          @for (item of projectList(); track $index) {
+                          <tr>
+                            <td>{{$index+1}}</td>
+                            <td>{{item.projectName}}</td>
+                            <td>{{item.startDate | date: 'dd-MMM-yy'}}</td>
+                            <td>{{item.expectedEndDate | date: 'dd/MM/yy'}}</td>
+                            <td>{{item.clientName}}</td>
+                            <td>{{item.clientProjectId}}</td>
+                            <td>
+                              <button class="btn btn-primary">Edit</button>
+                              <button class="btn btn-danger">Delete</button>
+                            </td>
+                          </tr>
+                          }
 
-                            </tbody>
-                        </table>
+                        </tbody>
+
+                        <!--<tbody>
+      @for (item of clientProjectList; track $index) {
+          <tr>
+              <td>{{$index+1}}</td>
+              <td>{{item.projectName}}</td>
+              <td>{{item.startDate | date: 'dd/MM/yy'}}</td>
+              <td>{{item.expectedEndDate | date: 'dd/MM/yy'}}</td>
+              <td>{{item.clientName}}</td>
+              <td>{{item.clientProjectId}}</td>
+              <td>
+                  <button class="btn btn-primary">Edit</button>
+                  <button class="btn btn-danger">Delete</button>
+              </td>
+          </tr>
+      }
+
+  </tbody>-->
+                      </table>
                     </div>
                 </div>
 

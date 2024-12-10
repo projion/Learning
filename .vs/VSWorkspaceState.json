@@ -5,10 +5,11 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\client-project",
-    "\\src\\app\\model\\class",
-    "\\src\\app\\services",
-    "\\src\\environments"
+    "\\src\\app\\constant",
+    "\\src\\app\\model",
+    "\\src\\app\\model\\interface",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components\\client-project\\client-project.component.html",
+  "SelectedNode": "\\src\\app\\app.config.ts",
   "PreviewInSolutionExplorer": true
 }

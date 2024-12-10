@@ -1,14 +1,14 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
-import { APIResponseModel, Employee } from '../../model/interface/role';
+import { APIResponseModel, ClientProject, Employee } from '../../model/interface/role';
 import { ClientService } from '../../services/client.service';
 import { Client } from '../../model/class/client';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-client-project',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, DatePipe],
   templateUrl: './client-project.component.html',
   styleUrl: './client-project.component.css'
 })
@@ -20,12 +20,21 @@ export class ClientProjectComponent implements OnInit {
   clientList: Client[] = [];
   // clientProjectList:FormGroup[]=[];
   clientProjectList: any[] = [];
+
+  firstName = signal("Angular 18");
+  projectList = signal<ClientProject[]>([])
+
   ngOnInit(): void {
+    const name = this.firstName();
     this.getAllClient()
     this.getAllEmployee()
     this.getAllClientProjects()
+    this.getAllClientProject()
   }
 
+  changeFName(){
+    this.firstName.set("Hello");
+  }
   projectForm: FormGroup = new FormGroup({
     clientProjectId: new FormControl(0),
     projectName: new FormControl("a", [Validators.required, Validators.minLength(4)]),
@@ -45,6 +54,11 @@ export class ClientProjectComponent implements OnInit {
   getAllEmployee() {
     this.clientSrv.getAllEmployee().subscribe((res: APIResponseModel) => {
       this.employeeList = res.data;
+    })
+  }
+  getAllClientProject() {
+    this.clientSrv.getAllClientProject().subscribe((res: APIResponseModel) => {
+      this.projectList.set(res.data);
     })
   }
   getAllClient() {
