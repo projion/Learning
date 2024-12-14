@@ -11,6 +11,6 @@
     "\\src\\app\\model\\interface",
     "\\src\\app\\service"
   ],
-  "SelectedNode": "\\src\\app\\components\\feedback-type-edit\\feedback-type-edit.component.ts",
+  "SelectedNode": "\\src\\app\\components\\feedback-type\\feedback-type.component.html",
   "PreviewInSolutionExplorer": false
 }

@@ -27,4 +27,8 @@ export class FeedbackTypeService {
   updateFeedbackType(obj: FeedbackType): Observable<APIResponseModel> {
     return this.http.put<APIResponseModel>("http://localhost:5271/UpdateFeedbackType", obj)
   }
+
+  deleteFeedbackTypeId(id: number): Observable<APIResponseModel> {
+    return this.http.delete<APIResponseModel>("http://localhost:5271/DeleteFeedbackType/" + id)
+  }
 }

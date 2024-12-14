@@ -121,5 +121,18 @@ export class FeedbackTypeComponent implements OnInit {
     } );
     alert("Updated Successfully")
   }
+  onDelete(id: number) {
+    const IsDelete = confirm("Are you sure you want to delete?");
+    if (IsDelete) {
+      this.feedbackTypeService.deleteFeedbackTypeId(id).subscribe((res: APIResponseModel) => {
+        if (res.data) {
+          alert("Deleted Successfully");
+          this.loadAllfeedbackType();
+        } else {
+          alert(res.message);
+        }
+      })
+    }
+  }
 
 }
