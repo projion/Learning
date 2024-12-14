@@ -1,0 +1,109 @@
+<!--<p>feedback-type-create works!</p>-->
+<!--<div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">-->
+<!--<div class="flex flex-column align-items-center justify-content-center">
+  <div class="w-full surface-card py-8 px-5 sm:px-8" style="border-radius:53px">
+    <div class="grid p-fluid">
+      <div class="col-12 md:col-6">
+        <div class="card">
+          <h5 class="text-center mb-5">Create new feedback type</h5>
+          <div class="mb-5">
+            <span class="p-float-label">
+              <input id="float-input" type="text" pInputText>
+              <label for="float-input">Feedback Name</label>
+            </span>
+          </div>
+          <div class="mb-5">
+            <span class="p-float-label">
+              <input id="float-input" type="text" pInputText>
+              <label for="float-input">Feedback Name</label>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+<form [formGroup]="feedbackForm">
+  <div class="flex flex-column align-items-center justify-content-start" style="height: 100%; width: 100%; margin: 0; padding: 0;">
+    <div class="w-full surface-card py-8 px-5 sm:px-8" style="border-radius:53px; max-width: 600px; width: 100%; margin-top: 0;">
+      <div class="grid p-fluid justify-content-center">
+        <div class="col-12">
+          <div class="card">
+            <h5 class="text-center mb-5">Create new feedback type</h5>
+
+            <!-- First Input Field -->
+            <div class="mb-5">
+              <span class="p-float-label">
+                <input type="text" formControlName="feedbackName" pInputText>
+                <label>Feedback Name</label>
+              </span>
+            </div>
+
+            <!-- Second Input Field -->
+            <div class="mb-5">
+              <span class="p-float-label">
+                <input type="text" formControlName="feedbackDesc" pInputText>
+                <label>Feedback Description</label>
+              </span>
+            </div>
+
+            <div class="mb-2">
+              <div class="grid formgrid">
+                <div class="col-12 mb-2 lg:col-4 lg:mb-0">
+                  <span class="p-float-label mt-2">
+                    <label>Is Active</label>
+                    <!--<p-inputSwitch [(ngModel)]="valSwitch"></p-inputSwitch>-->
+                  </span>
+                </div>
+                <div class="col-12 mb-2 lg:col-4 lg:mb-0">
+                  <p-inputSwitch formControlName="isActive"></p-inputSwitch>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <!--<div class="mb-5">
+            <div class="grid formgrid">
+              <div class="col-12 mb-2">
+                <span class="p-float-label mt-2">
+                  <label>Is Active</label>
+                </span>
+              </div>-->
+            <!-- Adjust to align the switch to the right side -->
+            <!--<div style="margin-top: -17px;" class="col-12 mb-2 flex justify-content-end">
+                  <p-inputSwitch></p-inputSwitch>
+                </div>
+              </div>
+            </div>-->
+            <!--<p-toolbar styleClass="mb-4">
+            <ng-template pTemplate="left">-->
+
+            <div class="grid">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <div class="flex justify-content-end">
+                  <button pButton pRipple label="cancel" routerLink="/feedbacktype"></button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="flex justify-content-end">
+                  <button pButton pRipple label="Submit" (click)="saveData()"></button>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--</ng-template>-->
+            <!--</p-toolbar>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+
+
+

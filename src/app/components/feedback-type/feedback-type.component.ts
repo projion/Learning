@@ -12,6 +12,8 @@ import { DropdownModule } from 'primeng/dropdown';
 import { SliderModule } from 'primeng/slider';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { ButtonModule } from 'primeng/button';
+import { ToolbarModule } from 'primeng/toolbar';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-feedback-type',
@@ -25,14 +27,16 @@ import { ButtonModule } from 'primeng/button';
     DropdownModule,
     ButtonModule,
     SliderModule,
-    ProgressBarModule
+    ProgressBarModule,
+    ToolbarModule,
+    RouterModule
   ],
   templateUrl: './feedback-type.component.html',
   styleUrl: './feedback-type.component.css'
 })
 export class FeedbackTypeComponent implements OnInit {
 
-  constructor(private feedbackTypeService: FeedbackTypeService, private customerService: CustomerService) { }
+  constructor(private feedbackTypeService: FeedbackTypeService, private customerService: CustomerService, private router: Router) { }
 
   feedbackType: any[] = [];
   customers1: Customer[] = [];
@@ -104,6 +108,18 @@ export class FeedbackTypeComponent implements OnInit {
   //  { feedbackTypeNo: 2, feedbackCode: 'F02', feedbackName: 'Feedback 2', feedbackDesc: 'Description 2', isActive: false },
   //  { feedbackTypeNo: 3, feedbackCode: 'F03', feedbackName: 'Feedback 3', feedbackDesc: 'Description 3', isActive: true }
   //];
+  }
+
+  //create
+  openNew() {
+    this.router.navigate(['/feedbacktypecreate']);
+  }
+
+  editFeedbackType(feedbackType: any) {
+    this.router.navigate(['/feedbacktypeedit'], {
+      state: { feedbackType }
+    } );
+    alert("Updated Successfully")
   }
 
 }

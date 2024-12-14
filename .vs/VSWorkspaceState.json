@@ -4,10 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\layout",
-    "\\src\\app\\service",
-    "\\src\\assets"
+    "\\src\\app\\components\\feedback-type",
+    "\\src\\app\\components\\feedback-type-create",
+    "\\src\\app\\components\\feedback-type-edit",
+    "\\src\\app\\model",
+    "\\src\\app\\model\\interface",
+    "\\src\\app\\service"
   ],
-  "SelectedNode": "\\src\\app\\components",
+  "SelectedNode": "\\src\\app\\components\\feedback-type-edit\\feedback-type-edit.component.ts",
   "PreviewInSolutionExplorer": false
 }

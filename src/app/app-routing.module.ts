@@ -6,6 +6,8 @@ import { HomeComponent } from './components/home/home.component';
 import { TableComponent } from './components/table/table.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { FeedbackTypeComponent } from './components/feedback-type/feedback-type.component';
+import { FeedbackTypeCreateComponent } from './components/feedback-type-create/feedback-type-create.component';
+import { FeedbackTypeEditComponent } from './components/feedback-type-edit/feedback-type-edit.component';
 //import { AbcComponent } from './demo/components/pages/abc/abc.component';
 
 @NgModule({
@@ -18,6 +20,8 @@ import { FeedbackTypeComponent } from './components/feedback-type/feedback-type.
               //{ path: 'table', component: TableComponent },
               { path: 'table2', loadChildren: () => import('./components/table/table.module').then(m => m.TableCModule) },
               { path: 'feedbacktype', component: FeedbackTypeComponent },
+              { path: 'feedbacktypecreate', component: FeedbackTypeCreateComponent },
+              { path: 'feedbacktypeedit', component: FeedbackTypeEditComponent },
                     //{ path: '', loadChildren: () => import('./demo/components/dashboard/dashboard.module').then(m => m.DashboardModule) },
                     //{ path: 'uikit', loadChildren: () => import('./demo/components/uikit/uikit.module').then(m => m.UIkitModule) },
                     //{ path: 'utilities', loadChildren: () => import('./demo/components/utilities/utilities.module').then(m => m.UtilitiesModule) },

@@ -1,0 +1,51 @@
+<p>feedback-type-edit works!</p>
+<form [formGroup]="feedbackForm">
+  <div class="flex flex-column align-items-center justify-content-start" style="height: 100%; width: 100%; margin: 0; padding: 0;">
+    <div class="w-full surface-card py-8 px-5 sm:px-8" style="border-radius:53px; max-width: 600px; width: 100%; margin-top: 0;">
+      <div class="grid p-fluid justify-content-center">
+        <div class="col-12">
+          <div class="card">
+            <h5 class="text-center mb-5">Edit feedback type</h5>
+            <div class="mb-5">
+              <span class="p-float-label">
+                <input type="text" formControlName="feedbackName" pInputText>
+                <label>Feedback Name</label>
+              </span>
+            </div>
+            <div class="mb-5">
+              <span class="p-float-label">
+                <input type="text" formControlName="feedbackDesc" pInputText>
+                <label>Feedback Description</label>
+              </span>
+            </div>
+            <div class="mb-2">
+              <div class="grid formgrid">
+                <div class="col-12 mb-2 lg:col-4 lg:mb-0">
+                  <span class="p-float-label mt-2">
+                    <label>Is Active</label>
+                  </span>
+                </div>
+                <div class="col-12 mb-2 lg:col-4 lg:mb-0">
+                  <p-inputSwitch formControlName="isActive"></p-inputSwitch>
+                </div>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <div class="flex justify-content-end">
+                  <button pButton pRipple label="cancel" routerLink="/feedbacktype"></button>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="flex justify-content-end">
+                  <button pButton pRipple label="Submit" (click)="updateData(feedbackType)"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
