@@ -4,12 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\table",
-    "\\src\\app\\components\\User",
     "\\src\\app\\components\\User\\user",
-    "\\src\\app\\layout",
     "\\src\\app\\layout\\service"
   ],
-  "SelectedNode": "\\src\\app\\components\\User\\user\\user.component.html",
+  "SelectedNode": "\\src\\app\\components",
   "PreviewInSolutionExplorer": false
 }

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\guard\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\guard\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\notfound\\notfound.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\notfound\\notfound.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\User\\user\\user.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\User\\user\\user.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout\\service\\app.layout.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\service\\feedback-type.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\service\\feedback-type.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "notfound.component.ts",
+              "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\notfound\\notfound.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\notfound\\notfound.component.ts",
+              "ToolTip": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\notfound\\notfound.component.ts",
+              "RelativeToolTip": "src\\app\\components\\notfound\\notfound.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-17T05:51:08.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-17T05:46:39.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "auth.guard.ts",
+              "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\guard\\auth.guard.ts",
+              "RelativeDocumentMoniker": "src\\app\\guard\\auth.guard.ts",
+              "ToolTip": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\guard\\auth.guard.ts",
+              "RelativeToolTip": "src\\app\\guard\\auth.guard.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-17T05:46:20.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "table.component.html",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\table\\table.component.html",
               "RelativeDocumentMoniker": "src\\app\\components\\table\\table.component.html",
@@ -67,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "table.module.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\table\\table.module.ts",
               "RelativeDocumentMoniker": "src\\app\\components\\table\\table.module.ts",
@@ -80,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "user.component.html",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\User\\user\\user.component.html",
               "RelativeDocumentMoniker": "src\\app\\components\\User\\user\\user.component.html",
@@ -93,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "app.layout.service.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\layout\\service\\app.layout.service.ts",
               "RelativeDocumentMoniker": "src\\app\\layout\\service\\app.layout.service.ts",
@@ -101,11 +152,12 @@
               "RelativeToolTip": "src\\app\\layout\\service\\app.layout.service.ts",
               "ViewState": "AgIAAGgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-12-15T13:11:45.749Z"
+              "WhenOpened": "2024-12-15T13:11:45.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "user.component.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\User\\user\\user.component.ts",
               "RelativeDocumentMoniker": "src\\app\\components\\User\\user\\user.component.ts",
@@ -118,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "feedback-type.service.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\service\\feedback-type.service.ts",
               "RelativeDocumentMoniker": "src\\app\\service\\feedback-type.service.ts",
@@ -126,23 +178,25 @@
               "RelativeToolTip": "src\\app\\service\\feedback-type.service.ts",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-12-10T12:22:33.093Z"
+              "WhenOpened": "2024-12-10T12:22:33.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "login.component.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\login\\login.component.ts",
               "RelativeDocumentMoniker": "src\\app\\components\\login\\login.component.ts",
               "ToolTip": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\components\\login\\login.component.ts",
               "RelativeToolTip": "src\\app\\components\\login\\login.component.ts",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-12-15T09:51:51.665Z"
+              "WhenOpened": "2024-12-15T09:51:51.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "main.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\main.ts",
               "RelativeDocumentMoniker": "src\\main.ts",
@@ -150,11 +204,12 @@
               "RelativeToolTip": "src\\main.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-12-15T09:57:17.526Z"
+              "WhenOpened": "2024-12-15T09:57:17.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "app.module.ts",
               "DocumentMoniker": "C:\\Users\\Avenger\\Desktop\\Work\\RND\\primemg\\Prime\\src\\app\\app.module.ts",
               "RelativeDocumentMoniker": "src\\app\\app.module.ts",
@@ -167,15 +222,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },

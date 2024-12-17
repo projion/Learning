@@ -10,13 +10,15 @@ import { FeedbackTypeCreateComponent } from './components/feedback-type-create/f
 import { FeedbackTypeEditComponent } from './components/feedback-type-edit/feedback-type-edit.component';
 import { LoginComponent } from './components/login/login.component';
 import { UserComponent } from './components/User/user/user.component';
+import { authGuard } from './guard/auth.guard';
 //import { AbcComponent } from './demo/components/pages/abc/abc.component';
 
 @NgModule({
     imports: [
         RouterModule.forRoot([
             {
-                path: '', component: AppLayoutComponent,
+            path: '', component: AppLayoutComponent,
+            canActivate: [authGuard],
             children: [
               { path: '', component: HomeComponent },
               //{ path: 'table', component: TableComponent },
