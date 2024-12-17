@@ -96,7 +96,6 @@ export class FeedbackTypeComponent implements OnInit {
   loadAllfeedbackType() {
     this.feedbackTypeService.getAllFeedbackType().subscribe((res: APIResponseModel) => {
       if (res.success) {
-        debugger;
         this.feedbackType = res.data.data;
       }
       else
@@ -111,15 +110,15 @@ export class FeedbackTypeComponent implements OnInit {
   }
 
   //create
-  openNew() {
-    this.router.navigate(['/feedbacktypecreate']);
-  }
+  //openNew() {
+  //  this.router.navigate(['/feedbacktypecreate']);
+  //}
 
   editFeedbackType(feedbackType: any) {
     this.router.navigate(['/feedbacktypeedit'], {
       state: { feedbackType }
     } );
-    alert("Updated Successfully")
+    //alert("Updated Successfully")
   }
   onDelete(id: number) {
     const IsDelete = confirm("Are you sure you want to delete?");

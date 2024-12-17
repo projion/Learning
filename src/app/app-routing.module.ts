@@ -8,6 +8,8 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { FeedbackTypeComponent } from './components/feedback-type/feedback-type.component';
 import { FeedbackTypeCreateComponent } from './components/feedback-type-create/feedback-type-create.component';
 import { FeedbackTypeEditComponent } from './components/feedback-type-edit/feedback-type-edit.component';
+import { LoginComponent } from './components/login/login.component';
+import { UserComponent } from './components/User/user/user.component';
 //import { AbcComponent } from './demo/components/pages/abc/abc.component';
 
 @NgModule({
@@ -22,6 +24,7 @@ import { FeedbackTypeEditComponent } from './components/feedback-type-edit/feedb
               { path: 'feedbacktype', component: FeedbackTypeComponent },
               { path: 'feedbacktypecreate', component: FeedbackTypeCreateComponent },
               { path: 'feedbacktypeedit', component: FeedbackTypeEditComponent },
+              { path: 'user', component: UserComponent },
                     //{ path: '', loadChildren: () => import('./demo/components/dashboard/dashboard.module').then(m => m.DashboardModule) },
                     //{ path: 'uikit', loadChildren: () => import('./demo/components/uikit/uikit.module').then(m => m.UIkitModule) },
                     //{ path: 'utilities', loadChildren: () => import('./demo/components/utilities/utilities.module').then(m => m.UtilitiesModule) },
@@ -34,6 +37,7 @@ import { FeedbackTypeEditComponent } from './components/feedback-type-edit/feedb
             //{ path: 'auth', loadChildren: () => import('./demo/components/auth/auth.module').then(m => m.AuthModule) },
           //{ path: 'landing', loadChildren: () => import('./demo/components/landing/landing.module').then(m => m.LandingModule) },
           //{ path: 'table', component: AppLayoutComponent, loadChildren: TableCModule },
+            { path: 'login', component: LoginComponent },
             { path: 'notfound', component: NotfoundComponent },
             { path: '**', redirectTo: '/notfound' },
         ], { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', onSameUrlNavigation: 'reload' })

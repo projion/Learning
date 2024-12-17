@@ -32,9 +32,9 @@ export class FeedbackTypeCreateComponent {
 
   feedbackForm: FormGroup = new FormGroup({
     feedbackTypeNo: new FormControl(0),
-    feedbackName: new FormControl("create", [Validators.required, Validators.minLength(4)]),
+    feedbackName: new FormControl("", [Validators.required, Validators.minLength(4)]),
     feedbackCode: new FormControl("0"),
-    feedbackDesc: new FormControl("no details"),
+    feedbackDesc: new FormControl(""),
     isActive: new FormControl(true),
   })
 

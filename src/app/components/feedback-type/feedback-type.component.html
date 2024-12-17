@@ -1,4 +1,4 @@
-<p>feedback-type works!</p>
+<!--<p>feedback-type works!</p>-->
 
 
 <!--<table class="table table-bordered">
@@ -45,7 +45,7 @@
     <p-toolbar styleClass="mb-4">
       <ng-template pTemplate="left">
         <div class="my-2">
-          <button pButton pRipple label="Create New" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>
+          <!--<button pButton pRipple label="Create New" icon="pi pi-plus" class="p-button-success mr-2" (click)="openNew()"></button>-->
           <button pButton pRipple label="Create New" icon="pi pi-plus" class="p-button-success mr-2" routerLink="/feedbacktypecreate"></button>
           <!--<button pButton pRipple label="Delete" icon="pi pi-trash" class="p-button-danger" (click)="deleteSelectedProducts()" [disabled]="!selectedProducts || !selectedProducts.length"></button>-->
         </div>
@@ -72,8 +72,9 @@
           <tr>
             <th style="min-width: 12rem">
               <div class="flex justify-content-between align-items-center">
-                Feedback Type No
-                <p-columnFilter type="text" field="feedbackTypeNo" display="menu" placeholder="Search by Feedback Type No"></p-columnFilter>
+                <!--Feedback Type No--> Serial No
+                <p-columnFilter type="text" field="Serial" display="menu" placeholder="Search by Feedback Type No"></p-columnFilter>
+                <!--<p-columnFilter type="text" field="feedbackTypeNo" display="menu" placeholder="Search by Feedback Type No"></p-columnFilter>-->
               </div>
             </th>
             <th style="min-width: 12rem">
@@ -129,10 +130,11 @@
   </th>-->
           </tr>
         </ng-template>
-        <ng-template pTemplate="body" let-feedbackType>
+        <ng-template pTemplate="body" let-feedbackType let-i="rowIndex">
           <tr>
             <td>
-              {{feedbackType.feedbackTypeNo}}
+              <!--{{feedbackType.feedbackTypeNo}}-->
+              {{i + 1}}
             </td>
             <td>
               {{feedbackType.feedbackCode}}
@@ -144,7 +146,8 @@
               {{feedbackType.feedbackDesc}}
             </td>
             <td>
-              {{feedbackType.isActive}}
+              <!--{{feedbackType.isActive}}-->
+              {{ feedbackType.isActive === 1 ? 'Yes' : 'No' }}
             </td>
             <div class="flex">
               <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success mr-2" (click)="editFeedbackType(feedbackType)"></button>

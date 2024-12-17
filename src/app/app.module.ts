@@ -6,6 +6,8 @@ import { AppLayoutModule } from './layout/app.layout.module';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { CustomerService } from './utility/service/customer.service';
 import { ProductService } from './utility/service/product.service';
+import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { customInterceptor } from './service/interceptor/custom.interceptor';
 //import { NotfoundComponent } from './demo/components/notfound/notfound.component';
 //import { ProductService } from './demo/service/product.service';
 //import { CountryService } from './demo/service/country.service';
@@ -19,7 +21,7 @@ import { ProductService } from './utility/service/product.service';
   declarations: [AppComponent, NotfoundComponent],
     imports: [AppRoutingModule, AppLayoutModule],
     providers: [
-      { provide: LocationStrategy, useClass: PathLocationStrategy }, CustomerService, ProductService
+      { provide: LocationStrategy, useClass: PathLocationStrategy }, CustomerService, ProductService, provideHttpClient(withInterceptors([customInterceptor]))
         //CountryService, EventService, IconService, NodeService,
         //PhotoService
     ],
