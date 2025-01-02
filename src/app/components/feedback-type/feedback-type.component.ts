@@ -14,6 +14,7 @@ import { ProgressBarModule } from 'primeng/progressbar';
 import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from 'primeng/toolbar';
 import { Router, RouterModule } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-feedback-type',
@@ -36,7 +37,7 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class FeedbackTypeComponent implements OnInit {
 
-  constructor(private feedbackTypeService: FeedbackTypeService, private customerService: CustomerService, private router: Router) { }
+  constructor(private feedbackTypeService: FeedbackTypeService, private customerService: CustomerService, private router: Router, private http: HttpClient) { }
 
   feedbackType: any[] = [];
   customers1: Customer[] = [];
@@ -95,8 +96,9 @@ export class FeedbackTypeComponent implements OnInit {
   }
   loadAllfeedbackType() {
     this.feedbackTypeService.getAllFeedbackType().subscribe((res: APIResponseModel) => {
+      /*this.http.get<APIResponseModel>("http://localhost:5271/GetAllFeedbackType/").subscribe((res: APIResponseModel) => {*/
       if (res.success) {
-        this.feedbackType = res.data.data;
+        this.feedbackType = res.data.paginatedData;
       }
       else
         alert(res.message);

@@ -12,6 +12,7 @@ export class FeedbackTypeService {
 
   getAllFeedbackType() {
     return this.http.get<APIResponseModel>("http://localhost:5271/GetAllFeedbackType?pageNumber=1&pageSize=100")
+    //return this.http.get<APIResponseModel>("http://localhost:5271/GetAllFeedbackType")
   }
   //createFeedbackType() {
   //  return this.http.post<APIResponseModel>("http://localhost:5271/CreateFeedbackType")

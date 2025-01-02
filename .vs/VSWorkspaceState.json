@@ -4,8 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\login"
+    "\\src\\app\\components\\feedback-type",
+    "\\src\\app\\components\\User",
+    "\\src\\app\\components\\User\\user",
+    "\\src\\app\\guard",
+    "\\src\\app\\service",
+    "\\src\\app\\service\\interceptor"
   ],
-  "SelectedNode": "\\src\\app\\components\\login\\login.component.html",
+  "SelectedNode": "\\src\\app\\components\\feedback-type\\feedback-type.component.ts",
   "PreviewInSolutionExplorer": false
 }

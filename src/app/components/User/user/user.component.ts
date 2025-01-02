@@ -46,9 +46,14 @@ export class UserComponent implements OnInit {
   }
   dataList: any[] = [];
   loadAllUser() {
-    debugger;
+    //debugger;
     this.http.get("http://localhost:5271/GetAllUser?pageNumber=1&pageSize=100").subscribe((res: any) => {
-      this.dataList = res.data;
+      //this.dataList = res.data;
+      //debugger;
+      if (res.success) {
+        this.dataList = res.data.paginatedData;
+      }
+      //debugger;
     }, error => {
       alert("Error from API");
     })

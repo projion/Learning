@@ -50,7 +50,7 @@ export class LoginComponent {
 
 
     this.loginService.getLogin(loginData).subscribe((res: any) => {
-      debugger;
+      //debugger;
       if (res.token) {
         //alert("Login Successfully")
         localStorage.setItem('userToken', res.token)
